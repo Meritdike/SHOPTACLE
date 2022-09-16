@@ -1,0 +1,18 @@
+/*---- membership form section ----*/
+.membership-bg {
+    background: url("../img/membership-bg.png") no-repeat;
+    background-size: cover;
+}
+#join:hover {
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+}
+@media (min-width: 768px) {
+    .email-form, .name-form, .country-form, .gender-form {
+        width: 57%;
+    }
+    .newsletter-select {
+        width: 50%;
+    }
+}
