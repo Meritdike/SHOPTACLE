@@ -3,14 +3,32 @@
     background: url("../img/membership-bg.png") no-repeat;
     background-size: cover;
 }
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+select::-ms-expand {
+    display: none;
+}
+.form-check-input:checked {
+    background-color: transparent !important;
+    border-color: #fff !important;
+}
+.form-check-input:focus {
+    border-color: #fff !important;
+    box-shadow: none !important;
+}
 #join:hover {
     background-color: #000 !important;
     border-color: #000 !important;
     color: #fff !important;
 }
 @media (min-width: 768px) {
-    .email-form, .name-form, .country-form, .gender-form {
+    .email-form, .name-form, .country-form, #member-gender {
         width: 57%;
+    }
+    #member-gender {
+        color: #666;
     }
     .newsletter-select {
         width: 50%;
