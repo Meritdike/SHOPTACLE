@@ -1,0 +1,16 @@
+/*---- user section ----*/
+.user-bg {
+    background: url("../img/user-bg.png") no-repeat;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .user-page {
+        width: 55%;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .user-page {
+        width: 100%;
+    }
+}
