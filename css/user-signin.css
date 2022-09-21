@@ -1,0 +1,34 @@
+/*---- header section ----*/
+#signup:hover {
+    background-color: #DA952C;
+    color: #fff !important;
+}
+
+/*---- signin section ----*/
+.user-signin-bg {
+    background: url("../img/signin-bg.png") no-repeat;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .email-form, .password-form {
+        width: 57%;
+    }
+    .save-info, .forgot-password {
+        width: 35%;
+    }
+}
+#signin:hover {
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+}
+/* @media (min-width: 476px) and (max-width: 767px) {
+    .save-info, .forgot-password {
+        width: 50%;
+    }
+}
+@media (max-width: 475px) {
+    .save-info, .forgot-password {
+        flex-direction: column;
+    }
+} */
