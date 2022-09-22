@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- custom css -->
-    <link rel="stylesheet" href="css/user-signin.css">
+    <link rel="stylesheet" href="css/about-us-loggedin.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- bootstrap icon cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>Sign In</title>
+    <title>About Us</title>
 </head>
 <body>
     <!-- header section -->
@@ -21,7 +21,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid px-0">
-                    <a class="navbar-brand d-flex" href="#"><img class="img-fluid w-25 me-2" src="img/shoptacle-logo.png" alt="Shoptacle">
+                    <a class="navbar-brand d-flex" href="#">
                         <p class="mb-0 fs-1 fw-bold">Shop<span style="color: #DA952C;">tacle</span></p>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,51 +30,91 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <a href="membership-signup.html" class="btn btn-outline-primary px-5 py-2" id="signup" style="color: #DA952C; border-color: #DA952C;" type="submit">Sign Up</a>
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-xl-4 me-lg-2">
+                                <a class="nav-link text-black" href="home.html">HOME</a>
+                            </li>
+                            <li class="nav-item me-lg-4">
+                                <a class="nav-link text-black" href="shoptacle-product-loggedin">PRODUCTS</a>
+                            </li>
+                            <li class="nav-item me-lg-4">
+                                <a class="nav-link text-black" href="shoptacle-collection.html">COLLECTION</a>
+                            </li>
+                            <li class="nav-item me-lg-4">
+                                <a class="nav-link active border-3 border-bottom" style="color: #DA952C; border-color: #DA952C !important; border-width: 10% !important;" aria-current="page" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item me-lg-4">
+                                <a class="nav-link text-black" href="shoptacle-contact-us.html">CONTACT US</a>
+                            </li>
                         </ul>
+                        <i class="bi bi-cart4 fs-3 me-4" role="button" style="color: #F15744;"></i>
+                        <i class="bi bi-search fs-4 me-4" role="button"></i>
+                        <i class="bi bi-bell fs-3 me-4 position-relative" role="button"><img src="img/bell-notification.png" class="img-fluid position-absolute top-0 start-100 translate-middle mt-3" style="margin-left: -6px;" alt=""></i>
+                        <i class="bi bi-person fs-3 me-4" role="button"></i>
                     </div>
                 </div>
             </nav>
-        </div>
     </section>
-    <!-- signin section -->
-    <section id="signin-section" style="margin: 80px 0;">
+    <!-- about-us section -->
+    <section id="about-us-section" style="margin: 40px 0 3em;">
         <div class="container">
-            <div class="user-signin-bg">
-                <div class="signin-page px-lg-5 px-md-5 px-sm-5 px-3" style="padding: 7em 0 5em;">
-                    <form action="#">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="email-form">
-                                    <div class="mb-4">
-                                        <input type="email" class="form-control ps-3 py-2" id="member-email"
-                                        placeholder="Email address" style="border-radius: 0;" required>
-                                    </div>
+            <div class="about-us-content">
+                <div class="about-us-bg mb-5">
+                    <img src="img/about-us-bg.png" class="img-fluid" alt="About Us">
+                </div>
+                <div class="about-us-text mb-4">
+                    <p class="lh-lg">
+                        Here at SHOPTACLE we say GOODBYE to ugly, badly designed Clothing wears and HELLO to beautiful, comfortable, FASHIONABLE wears for wider, plus size and color selections.<br>Customers of all shapes and sizes struggle in todays market to find quality Clothings and Accessories that fit fit AND keep with the trends and 
+                        occasion, In an industry that is growing by the day the lack of product out there is disheartening.<br> For us, we provide an online webshop for all the beautiful wears worldwide to have access to quality designer clothings.<br> SHOPTACLE was created by Odunlami Oluwafemi, a Nigrian online shopper who was sick and tired of the lack of range available for the majority of customers out there. with a background in Design, and Onlne Trading Crystal is more than qualified to bring you these beautiful Wears. We’re assuming you’ve already come across our Webstore competitors, you know the ones, the ill fitting patent black leather numbers on offer which may not actually be plus size and Look TERRIBLE. Thankfully, you now have the SHOPTACLE, perfectly fitted Clothings from a wide range of Brands and collectors to ensure you and your Wears have a long lasting relationship.<br><br> So go on. Pick your Needs.
+                    </p>
+                </div>
+                <div class="more-about-us">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="more-about d-flex mb-3">
+                                <div class="more-img me-3 mt-2">
+                                    <img src="img/about-us-send.png" class="img-fluid" alt="About Us Send">
                                 </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="password-form">
-                                    <div class="mb-4">
-                                        <input type="password" class="form-control ps-3 py-2" id="member-password" placeholder="Password" style="border-radius: 0;" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="signin-info d-flex mb-3 flex-wrap">
-                                <div class="form-check ps-0 save-info">
-                                    <input class="form-check-input fs-4 mx-2 mt-0" type="checkbox" value="" id="save-info" required>
-                                    <p class="text-white mb-0">Keep me signed in</p>
-                                </div>
-                                <div class="forgot-password">
-                                    <a href="#" class="text-decoration-none" style="color: #FF3D00;">Forgot Password?</a>
+                                <div class="more-about-text">
+                                    <h6 class="fw-bold">Free Shipping in Nigeria</h6>
+                                    <p style="font-size: 13px; color: #000000CC; opacity: 0.8;">Apply to all orders above #40,000</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center my-5 py-4">
-                            <button class="btn btn-primary px-5 py-2" id="signin" style="background-color: #DA952C; border-color: #DA952C;" type="submit">SIGN IN</button>
-                            <p class="text-white fw-bold mt-4">Don't have an account? <a href="membership-sigup.html" class="text-decoration-none" style="color: #FF9A00;">Sign Up</a></p>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="more-about d-flex mb-3">
+                                <div class="more-img me-3 mt-2">
+                                    <img src="img/about-us-refresh.png" class="img-fluid" alt="About Us Refresh">
+                                </div>
+                                <div class="more-about-text">
+                                    <h6 class="fw-bold">RETURNS & EXCHANGES</h6>
+                                    <p style="font-size: 14px; color: #000000CC; opacity: 0.8;">Complete Warranty</p>
+                                </div>
+                            </div>
                         </div>
-                    </form>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="more-about d-flex mb-3">
+                                <div class="more-img me-3 mt-2">
+                                    <img src="img/about-us-chat.png" class="img-fluid" alt="About Us Chat">
+                                </div>
+                                <div class="more-about-text">
+                                    <h6 class="fw-bold">TECHNICAL SUPPORTS</h6>
+                                    <p style="font-size: 14px; color: #000000CC; opacity: 0.8;">Service Support 24/7</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="more-about d-flex mb-3">
+                                <div class="more-img me-3 mt-2">
+                                    <img src="img/about-us-gift.png" class="img-fluid" alt="About Us Gift">
+                                </div>
+                                <div class="more-about-text">
+                                    <h6 class="fw-bold">DAILY GIFT VOUCHERS</h6>
+                                    <p style="font-size: 14px; color: #000000CC; opacity: 0.8;">Shopping now is more fun</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

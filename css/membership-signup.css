@@ -1,3 +1,6 @@
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
 /*---- membership form section ----*/
 .membership-bg {
     background: url("../img/membership-bg.png") no-repeat;
