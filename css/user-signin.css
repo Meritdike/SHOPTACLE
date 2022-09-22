@@ -1,3 +1,6 @@
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
 /*---- header section ----*/
 #signup:hover {
     background-color: #DA952C;
